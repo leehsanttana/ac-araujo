@@ -169,18 +169,18 @@ header{
 }
 
 .form-group .form-control{
-    background: #161616;
+    background: #343a40;
     border-radius: 10px;
     padding: 1.5rem;
-    color: #c0c0c0;
+    color: #f0f0f0;
 }
 
 .form-group .form-control::placeholder{
-    color: #c0c0c0;
+    color: #f0f0f0;
 }
 
 .form-group .form-control:focus{
-    background: #9b9b9b;
+    background: #23272b;
     color: #fefefe;
 }
 
@@ -198,4 +198,54 @@ header{
         width: 100%;
         height: 100%;
     }
+}
+
+.social{
+    font-size: 2.5rem;
+    transition: .5s ease;
+}
+
+.social:hover{
+    font-size: 2.5rem;
+    transform: scale(1.1);
+}
+
+.botao-whatsapp{
+    position: fixed;
+    height: 40px;
+    border-radius: 1rem;
+    background-color: #39ad3d;
+    padding: .5rem;
+    left: 80%;
+    z-index: 10;
+    animation-name: pop-up;
+    animation-delay: 1s;
+    animation-duration: 1.3s;
+    animation-fill-mode: forwards;
+    transition: .3s ease;
+}
+
+@keyframes pop-up{
+    from{
+        bottom: -100%
+    }
+
+    to{
+        bottom: 5%;
+    }
+}
+
+.botao-whatsapp p{
+    margin-right: 2rem;
+    font-size: .85rem;
+    color: #fff;
+}
+
+.botao-whatsapp p i{
+    font-size: 1.2rem;
+}
+
+.botao-whatsapp:hover{
+
+    transform: scale(1.050);
 }
