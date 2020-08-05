@@ -163,3 +163,7 @@ header{
     text-align: center;
     opacity: 1;
 }
+
+.btn-outline-dark{
+    border: 2px solid !important;
+}
