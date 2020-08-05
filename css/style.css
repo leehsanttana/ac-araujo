@@ -47,7 +47,7 @@ header{
     text-align: center;
     color: #fff;
     font-weight: 900;
-    font-size: .8rem;
+    font-size: .7rem;
     border-radius: .1rem;
 }
 
@@ -216,8 +216,8 @@ header{
     border-radius: 1rem;
     background-color: #39ad3d;
     padding: .5rem;
-    left: 50%;
-    z-index: 10;
+    left: 48%;
+    z-index: 2000;
     animation-name: pop-up;
     animation-delay: 1s;
     animation-duration: 1.3s;
@@ -237,7 +237,7 @@ header{
 
 .botao-whatsapp p{
     margin-right: 2rem;
-    font-size: .85rem;
+    font-size: .75rem;
     color: #fff;
 }
 
