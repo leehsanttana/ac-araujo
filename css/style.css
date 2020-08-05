@@ -216,7 +216,7 @@ header{
     border-radius: 1rem;
     background-color: #39ad3d;
     padding: .5rem;
-    left: 80%;
+    left: 50%;
     z-index: 10;
     animation-name: pop-up;
     animation-delay: 1s;
@@ -249,3 +249,49 @@ header{
 
     transform: scale(1.050);
 }
+
+
+@media only screen and (min-width: 768px) {
+
+    .botao-whatsapp{
+        position: fixed;
+        width: 240px;
+        height: 40px;
+        border-radius: 1rem;
+        background-color: #39ad3d;
+        padding: .5rem;
+        left: 80%;
+        z-index: 10;
+        animation-name: pop-up;
+        animation-delay: 1s;
+        animation-duration: 1.3s;
+        animation-fill-mode: forwards;
+        transition: .3s ease;
+    }
+    
+    @keyframes pop-up{
+        from{
+            bottom: -100%
+        }
+    
+        to{
+            bottom: 5%;
+        }
+    }
+    
+    .botao-whatsapp p{
+        margin-right: 2rem;
+        font-size: .85rem;
+        color: #fff;
+    }
+    
+    .botao-whatsapp p i{
+        font-size: 1.2rem;
+    }
+    
+    .botao-whatsapp:hover{
+    
+        transform: scale(1.050);
+    }
+}
+
