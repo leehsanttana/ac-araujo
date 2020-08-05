@@ -38,7 +38,7 @@ header{
 }
 
 .menu-top{
-    padding: .5rem 0 .5rem 0;
+    padding: 0 0 0 0;
 }
     
 .menu-link{
@@ -47,7 +47,7 @@ header{
     text-align: center;
     color: #fff;
     font-weight: 900;
-    font-size: .7rem;
+    font-size: .8rem;
     border-radius: .1rem;
 }
 
@@ -213,10 +213,11 @@ header{
 .botao-whatsapp{
     position: fixed;
     height: 40px;
+    width: 200px;
     border-radius: 1rem;
     background-color: #39ad3d;
     padding: .5rem;
-    left: 48%;
+    left: 40%;
     z-index: 2000;
     animation-name: pop-up;
     animation-delay: 1s;
@@ -237,7 +238,7 @@ header{
 
 .botao-whatsapp p{
     margin-right: 2rem;
-    font-size: .75rem;
+    font-size: .65rem;
     color: #fff;
 }
 
